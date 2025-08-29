@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Deepakkumar Shanmugasundaram — Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
+  <link rel="stylesheet" href="static/css/style.css" />
+  <!-- Typed.js for animated name -->
+  <script defer src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script defer src="static/js/script.js"></script>
+</head>
+<body>
+  <!-- Header / Hero -->
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="hero-left">
+        <img id="profile-pic" class="profile scroll-animate" data-speed="0.15" alt="Profile photo" />
+      </div>
+      <div class="hero-right">
+        <h1 id="typed-name" class="scroll-animate" data-speed="0.2"></h1>
+        <p id="role" class="role"></p>
+        <div id="contact" class="contact"></div>
+        <nav class="nav">
+          <a href="#skills">Skills</a>
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#certificates">Certificates</a>
+          <a href="#education">Education</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- About -->
+  <section class="section" id="about">
+    <h2>About</h2>
+    <p id="about-text" class="lead"></p>
+  </section>
+
+  <!-- Skills (click for details) -->
+  <section class="section" id="skills">
+    <h2>Skills</h2>
+    <div id="skills-grid" class="grid"></div>
+  </section>
+
+  <!-- Experience -->
+  <section class="section" id="experience">
+    <h2>Experience</h2>
+    <div id="exp-list" class="timeline"></div>
+  </section>
+
+  <!-- Projects -->
+  <section class="section" id="projects">
+    <h2>Research & Projects</h2>
+    <div id="proj-grid" class="grid projects"></div>
+  </section>
+
+  <!-- Certificates -->
+  <section class="section" id="certificates">
+    <h2>Certificates</h2>
+    <ul id="cert-list" class="cert-list"></ul>
+  </section>
+
+  <!-- Education -->
+  <section class="section" id="education">
+    <h2>Education</h2>
+    <div id="edu-list" class="edu"></div>
+  </section>
+
+  <!-- Modal (used for skill details) -->
+  <div id="modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-content">
+      <button class="modal-close" id="modal-close" aria-label="Close">×</button>
+      <h3 id="modal-title"></h3>
+      <p id="modal-body"></p>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Deepakkumar Shanmugasundaram — Built with HTML/CSS/JS</p>
+  </footer>
+</body>
+</html>

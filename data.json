@@ -1,0 +1,111 @@
+{
+  "name": "Deepakkumar Shanmugasundaram",
+  "title": "Full-Stack Developer | AI & Automation Enthusiast",
+  "contact": {
+    "phone": "334-492-6830",
+    "email": "deepaksundaram5015@yahoo.com",
+    "location": "1620 Chicory Lane, Celina, TX 75009 (Willing to Relocate)",
+    "linkedin": "Profile "
+  },
+  "profile_pic": "static/image/deepakkumar.png",
+  "about": "Full-Stack Developer with 4+ years of experience building scalable web applications using React, Java Spring Boot, and AWS. Skilled in creating user-centric platforms with strong backend architecture, automation, and cloud deployment.",
+  "skills": [
+    {
+      "name": "Java & Spring Boot",
+      "details": "Built backend microservices, API-driven processing and deployed modular architecture using Spring Boot. Implemented unit tests, CI/CD and performance tuning."
+    },
+    {
+      "name": "React.js & Frontend",
+      "details": "Developed responsive loan application and CMS platforms, and polished UI/UX with React, Tailwind and Bootstrap."
+    },
+    { 
+      "name": "Python, NLP & Automation",
+      "details": "Built automation workflows with Selenium and Python; used spaCy and TensorFlow for document classification and extraction."
+    },
+    {
+      "name": "AWS & DevOps",
+      "details": "Integrated S3, EC2, Lambda, IAM; automated builds and deployments via GitHub Actions; containerized apps with Docker."
+    },
+    {
+      "name": "Databases",
+      "details": "Worked with MongoDB, PostgreSQL, MySQL and Oracle DB; designed schemas and optimized queries."
+    },
+    {
+      "name": "Mobile & Cross-Platform",
+      "details": "Built Flutter/React Native apps, integrated backend APIs and implemented E2E testing with Appium."
+    }
+  ],
+  
+  "experience": [
+    {
+      "role": "Software Engineer",
+      "company": "Renny LLC, USA",
+      "year": "Jul 2024 – Present",
+      "details": [
+        "Developed a responsive loan application and CMS platform using React and Spring Boot.",
+        "Integrated AWS services (S3, IAM, EC2) and automated deployments with GitHub Actions.",
+        "Built and maintained Spring Boot microservices and backend APIs.",
+        "Applied NLP (spaCy, TensorFlow) to classify and extract loan document data."
+      ]
+    },
+    {
+      "role": "Software Engineer",
+      "company": "Dextra Solutions, Chennai, India",
+      "year": "Dec 2021 – Jul 2022",
+      "details": [
+        "Developed ACMS/CRM mobile apps with Flutter & React Native.",
+        "Integrated VR/AR modules and automated UI tests with Selenium and Appium."
+      ]
+    },
+    {
+      "role": "Flutter Developer",
+      "company": "KS Smart Solutions Pvt Ltd, Chennai, India",
+      "year": "Jan 2019 – Nov 2021",
+      "details": [
+        "Built cross-platform mobile apps, optimized performance, and managed deployments."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Virtual Try-On Dress Technology",
+      "description": "VR/AR real-time virtual fitting with body edge detection and ML optimizations.",
+      "tech": ["Unity", "TensorFlow", "spaCy", "OpenCV"]
+    },
+    {
+      "name": "AI Document Extractor",
+      "description": "Pipeline that extracts and classifies structured/unstructured data using NLP and automation.",
+      "tech": ["Python", "spaCy", "Flask", "AWS Lambda"]
+    },
+    {
+      "name": "Loan Application System",
+      "description": "Full-stack loan system with React frontend and Spring Boot backend, deployed to AWS.",
+      "tech": ["React", "Spring Boot", "MongoDB", "AWS"]
+    },
+    {
+      "name": "Smart CRM with AR/VR",
+      "description": "Cross-platform CRM app with immersive AR/VR integration and location features.",
+      "tech": ["Flutter", "React Native", "AWS", "AR/VR"]
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Oracle Gen AI Architect",
+      "issuer": "Oracle",
+      "year": "2023",
+      "details": "Specialization in designing GenAI-driven enterprise architectures."
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.Sc. Computer Science (AI)",
+      "school": "Troy University, AL, USA",
+      "year": "Aug 2022 – May 2024",
+      "gpa": "3.6"
+    }
+  ],
+  "theme": {
+    "background": "white",
+    "scroll_effect": "parallax"
+  }
+}
