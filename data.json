@@ -5,10 +5,11 @@
     "phone": "334-492-6830",
     "email": "deepaksundaram5015@yahoo.com",
     "location": "1620 Chicory Lane, Celina, TX 75009 (Willing to Relocate)",
-    "linkedin": "Profile "
+    "linkedin": "https://www.linkedin.com/in/deepak5015/",
+    "github": "https://github.com/Deepak501550"
   },
   "profile_pic": "static/image/deepakkumar.png",
-  "about": "Full-Stack Developer with 4+ years of experience building scalable web applications using React, Java Spring Boot, and AWS. Skilled in creating user-centric platforms with strong backend architecture, automation, and cloud deployment.",
+  "about": "Full-Stack Developer and AI/Automation Enthusiast with 4+ years of experience designing and developing scalable web and mobile applications. Proficient in React, Java Spring Boot, Python, and cross-platform mobile development (Flutter/React Native), with hands-on expertise in CI/CD pipelines, AWS cloud deployment, and DevOps practices. Skilled in building AI-powered solutions, including NLP pipelines, RPA workflows, and GenAI-driven automation systems. Adept at delivering secure, user-centric platforms, optimizing system performance, and integrating AR/VR and advanced automation technologies. Actively seeking roles as a Full-Stack Developer, DevOps Engineer, GenAI Engineer, or RPA Automation Specialist to contribute to innovative, high-impact projects.",
   "skills": [
     {
       "name": "Java & Spring Boot",
@@ -18,7 +19,7 @@
       "name": "React.js & Frontend",
       "details": "Developed responsive loan application and CMS platforms, and polished UI/UX with React, Tailwind and Bootstrap."
     },
-    { 
+    {
       "name": "Python, NLP & Automation",
       "details": "Built automation workflows with Selenium and Python; used spaCy and TensorFlow for document classification and extraction."
     },
@@ -35,17 +36,19 @@
       "details": "Built Flutter/React Native apps, integrated backend APIs and implemented E2E testing with Appium."
     }
   ],
-  
   "experience": [
     {
       "role": "Software Engineer",
       "company": "Renny LLC, USA",
       "year": "Jul 2024 – Present",
       "details": [
-        "Developed a responsive loan application and CMS platform using React and Spring Boot.",
-        "Integrated AWS services (S3, IAM, EC2) and automated deployments with GitHub Actions.",
-        "Built and maintained Spring Boot microservices and backend APIs.",
-        "Applied NLP (spaCy, TensorFlow) to classify and extract loan document data."
+        "Developed a responsive loan application and CMS platform using React, enhancing user experience, improving data intake, and increasing client engagement with real-time content updates.",
+        "Integrated AWS services including S3 (data storage), IAM (role-based access), and EC2 (deployment), while automating builds and deployments via GitHub Actions.",
+        "Built and maintained scalable backend microservices with Java Spring Boot, supporting modular architecture and API-driven data processing.",
+        "Implemented test automation using Selenium, achieving over 90% test accuracy, and continuously optimized system performance through CI/CD pipelines and code versioning best practices.",
+        "Designed and deployed intelligent web automation workflows using Python and Selenium to extract, transform, and analyze structured/unstructured data across multiple sources, enhancing operational efficiency.",
+        "Applied Natural Language Processing (NLP) techniques using spaCy and TensorFlow to classify, extract, and contextualize data from loan documents, increasing data accuracy by 40%.",
+        "Troubleshot and resolved complex full-stack application issues, ensuring high availability and performance."
       ]
     },
     {
@@ -53,8 +56,14 @@
       "company": "Dextra Solutions, Chennai, India",
       "year": "Dec 2021 – Jul 2022",
       "details": [
-        "Developed ACMS/CRM mobile apps with Flutter & React Native.",
-        "Integrated VR/AR modules and automated UI tests with Selenium and Appium."
+        "Developed a cross-platform ACMS and CRM mobile application using Flutter and React Native, with secure login and user data management, ensuring high performance and consistency across Android and web platforms.",
+        "Built a React-based web application with structure and performance aligned to the mobile app, using Selenium for web automation testing and Appium for mobile automation validation.",
+        "Integrated VR/AR modules using location-based services to suggest nearby attractions (airports, museums, etc.), enhancing user interaction and increasing app engagement.",
+        "Implemented CI/CD pipelines using AWS services (S3, EC2, Lambda, IAM), with backend support in Java Spring Boot and Python.",
+        "Developed backend services handling RESTful APIs, automation workflows, and AR/VR business logic.",
+        "Optimized databases (MongoDB, PostgreSQL) and application performance using caching, lazy loading, and efficient API endpoints.",
+        "Collaborated with cross-functional teams to gather requirements, design solutions, and deliver high-quality software on time.",
+        "Ensured security and compliance through encryption, authentication, and best practices for user data management."
       ]
     },
     {
@@ -62,31 +71,104 @@
       "company": "KS Smart Solutions Pvt Ltd, Chennai, India",
       "year": "Jan 2019 – Nov 2021",
       "details": [
-        "Built cross-platform mobile apps, optimized performance, and managed deployments."
+        "Designed and developed user interfaces with Flutter to create visually appealing and intuitive mobile apps.",
+        "Built cross-platform applications for iOS and Android ensuring consistent functionality and design.",
+        "Collaborated with backend developers to integrate APIs and ensure smooth data flow between frontend and backend.",
+        "Connected apps to external APIs and services to enhance functionality.",
+        "Optimized performance across devices by fine-tuning code and resources.",
+        "Conducted extensive testing and debugging to ensure reliable functionality.",
+        "Used Git for version control to manage code and collaborate with teams.",
+        "Stayed updated with Flutter and mobile development trends, implementing best practices.",
+        "Deployed apps to app stores, monitored performance, and released updates.",
+        "Implemented security features including encryption, authentication, and user data protection."
       ]
     }
   ],
   "projects": [
-    {
-      "name": "Virtual Try-On Dress Technology",
-      "description": "VR/AR real-time virtual fitting with body edge detection and ML optimizations.",
-      "tech": ["Unity", "TensorFlow", "spaCy", "OpenCV"]
-    },
-    {
-      "name": "AI Document Extractor",
-      "description": "Pipeline that extracts and classifies structured/unstructured data using NLP and automation.",
-      "tech": ["Python", "spaCy", "Flask", "AWS Lambda"]
-    },
-    {
-      "name": "Loan Application System",
-      "description": "Full-stack loan system with React frontend and Spring Boot backend, deployed to AWS.",
-      "tech": ["React", "Spring Boot", "MongoDB", "AWS"]
-    },
-    {
-      "name": "Smart CRM with AR/VR",
-      "description": "Cross-platform CRM app with immersive AR/VR integration and location features.",
-      "tech": ["Flutter", "React Native", "AWS", "AR/VR"]
-    }
+  {
+  "name": "Virtual Try-On Dress Technology (AVITON)",
+  "description": [
+    "Real-time AI-powered virtual try-on system allowing users to preview dresses and outfits before purchase",
+    "Body pose and edge detection using MediaPipe and OpenCV for precise alignment of garments",
+    "Garment warping with Thin Plate Spline (TPS) transformations to adapt clothing naturally to body posture",
+    "Texture preservation and realistic blending ensuring fabric folds and patterns remain visible",
+    "Unity integration for immersive AR/VR-based online shopping experience",
+    "TensorFlow models optimized garment fitting and image-to-image transformations",
+    "RAG (Retrieval-Augmented Generation) integrated with NLP to recommend outfit combinations and styles from a curated fashion dataset",
+    "NLP-driven personalization enabled users to query outfits in natural language (e.g., 'show me summer dresses' or 'recommend a formal outfit')",
+    "Improved over traditional try-on systems by combining visual try-on with intelligent recommendation capabilities",
+    "Occlusion handling for realistic overlays when body parts (like arms) overlap clothing"
+  ],
+  "tech": ["Unity", "TensorFlow", "OpenCV", "MediaPipe", "RAG", "NLP"],
+  "image": "static/image/v-ton.png.jpeg"
+},
+ {
+    "name": "Predictive Modeling for Cancer Patient Dataset",
+    "teamSize": 1,
+    "duration": "DEC 2023",
+    "description": [
+      "Developed a supervised machine learning model using Scikit-learn to predict cancer patient survival",
+      "Performed exploratory data analysis, feature engineering, and hyperparameter tuning",
+      "Implemented cross-validation to improve model accuracy and robustness",
+      "Deployed the predictive model on AWS for scalability"
+    ],
+    "tech": ["Scikit-learn", "Python", "AWS", "Machine Learning"],
+    "image": "static/image/predict .jpg"
+  },
+  {
+    "name": "Smart Women IoT Governance System",
+    "teamSize": 2,
+    "duration": "SEP 2019 – MAR 2020",
+    "description": [
+      "Designed an IoT-based safety system to protect women and children from harassment",
+      "Developed a smart belt to monitor movement and detect forced pulls",
+      "Connected the device to a mobile app via Bluetooth with background monitoring",
+      "Triggered alarms and sent real-time location data during emergencies"
+    ],
+    "tech": ["IoT", "Bluetooth", "Mobile App", "Embedded Systems"],
+    "image": "static/image/smartw.jpg"
+  },
+  {
+    "name": "Smart Water Management System Using IoT",
+    "teamSize": 3,
+    "duration": "SEP 2018 – MAR 2019",
+    "description": [
+      "Developed a system to monitor and manage underground water pipelines",
+      "Used sensors to detect water leakage and transmit exact pipe locations",
+      "Enabled real-time monitoring of water flow and usage in individual homes",
+      "Generated automated water usage bills based on consumption"
+    ],
+    "tech": ["IoT", "Water Sensors", "Embedded Systems"],
+    "image": "static/image/smartwater.jpeg"
+  },
+  {
+    "name": "Accident Prevention and Detection System Using IoT",
+    "teamSize": 1,
+    "duration": "MAY 2019 – JAN 2020",
+    "description": [
+      "Built an IoT-based system to prevent and detect vehicle accidents",
+      "Integrated RF module and ABS brake system in four-wheelers",
+      "Implemented messaging system to alert moving vehicles about resting vehicles",
+      "Enabled automatic ABS braking to prevent collisions",
+      "Sent real-time accident alerts to ambulances via GSM or RF"
+    ],
+    "tech": ["IoT", "RF Module", "GSM", "ABS Brake System"],
+    "image": "static/image/car.jpeg"
+  },
+  {
+    "name": "KNN-based Threat Detection and Gas Live Monitoring System",
+    "teamSize": 1,
+    "duration": "SEP 2018 – JAN 2019",
+    "description": [
+      "Developed a home security and gas monitoring system using IoT",
+      "Integrated voice recognition module to detect emergency keywords",
+      "Triggered alerts to neighbors and police stations during emergencies",
+      "Implemented gas leak detection module connected to ThinkSpeak server",
+      "Enabled real-time data visualization and monitoring"
+    ],
+    "tech": ["IoT", "KNN", "Voice Recognition", "ThinkSpeak"],
+    "image": "static/image/gas.png"
+  }
   ],
   "certificates": [
     {
